@@ -41,7 +41,7 @@ SRC += src/Log.cpp
 ## Usage
 
 ```cpp
-#include "log.hpp"
+#include "Log.hpp"
 
 int main()
 {

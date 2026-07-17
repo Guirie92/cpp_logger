@@ -1,0 +1,8 @@
+test/
+tests/
+tests*
+test*
+*.out
+obj/
+*.obj
+*.png
