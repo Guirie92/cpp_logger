@@ -6,7 +6,7 @@
 /*   By: guillsan <guillsan@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 20:39:22 by guillsan          #+#    #+#             */
-/*   Updated: 2026/07/17 21:05:03 by guillsan         ###   ########.fr       */
+/*   Updated: 2026/07/17 22:21:50 by guillsan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ inline Log& Log::operator<<(const T &val)
 	return *this;
 }
 
-inline Log::e_flags operator|(Log::e_flags lhs, Log::e_flags rhs)
+inline Log::Flags operator|(Log::Flags lhs, Log::Flags rhs)
 {
-	return static_cast<Log::e_flags>(
+	return static_cast<Log::Flags>(
 		static_cast<int>(lhs) | static_cast<int>(rhs)
 	);
 }
