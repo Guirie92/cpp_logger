@@ -138,3 +138,10 @@ Log& Log::operator=(const Log& other)
 		return *this;
 	return *this;
 }
+
+Log::Flags operator|(Log::Flags lhs, Log::Flags rhs)
+{
+	return static_cast<Log::Flags>(
+		static_cast<int>(lhs) | static_cast<int>(rhs)
+	);
+}
