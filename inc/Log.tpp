@@ -19,10 +19,3 @@ inline Log& Log::operator<<(const T &val)
 	*(_os) << val;
 	return *this;
 }
-
-inline Log::Flags operator|(Log::Flags lhs, Log::Flags rhs)
-{
-	return static_cast<Log::Flags>(
-		static_cast<int>(lhs) | static_cast<int>(rhs)
-	);
-}
