@@ -70,6 +70,8 @@ private:
 	Log& operator=(const Log& other);
 };
 
+Log::Flags operator|(Log::Flags lhs, Log::Flags rhs);
+
 #include "Log.tpp"
 
 #endif /* LOG_HPP */
