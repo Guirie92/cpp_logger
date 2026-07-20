@@ -6,7 +6,7 @@
 /*   By: guillsan <guillsan@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 20:40:47 by guillsan          #+#    #+#             */
-/*   Updated: 2026/07/17 22:23:52 by guillsan         ###   ########.fr       */
+/*   Updated: 2026/07/20 14:45:21 by guillsan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,15 @@ public:
 	enum Color { DEFAULT, RED, YLW, GRN, BLUE, MAG, CYAN, COLOR_COUNT };
 	enum Flags
 	{
-		NONE           = 1 << 0, // 0001
-		NO_ENDL        = 1 << 1, // 0010
-		FLUSH          = 1 << 2, // 0100
-		BOLD           = 1 << 3, // 1000
-		ITALIC         = 1 << 4, // 0001 0000
-		UNDERLINE      = 1 << 5, // 0010 0000
-		RST_BOLD       = 1 << 6, // 0100 0000
-		RST_ITALIC     = 1 << 7, // 1000 0000
-		RST_UNDERLINE  = 1 << 8, // 0001 0000 0000
+		NONE          = 1 << 0, // 0001
+		NO_ENDL       = 1 << 1, // 0010
+		FLUSH         = 1 << 2, // 0100
+		BOLD          = 1 << 3, // 1000
+		ITALIC        = 1 << 4, // 0001 0000
+		UNDERLINE     = 1 << 5, // 0010 0000
+		RST_BOLD      = 1 << 6, // 0100 0000
+		RST_ITALIC    = 1 << 7, // 1000 0000
+		RST_UNDERLINE = 1 << 8, // 0001 0000 0000
 	};
 	
 	~Log();
