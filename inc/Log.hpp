@@ -6,13 +6,14 @@
 /*   By: guillsan <guillsan@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/04 20:40:47 by guillsan          #+#    #+#             */
-/*   Updated: 2026/07/20 14:45:21 by guillsan         ###   ########.fr       */
+/*   Updated: 2026/07/21 17:17:59 by guillsan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LOG_HPP
 #define LOG_HPP
 
+#include <iostream>
 #include <string>
 #include <stdbool.h>
 
